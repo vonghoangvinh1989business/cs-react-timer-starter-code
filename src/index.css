@@ -1,6 +1,6 @@
 :root {
-  --text-shadow-color: #ff9c99;
-  --text-main-color: #d74742;
+  --text-shadow-color: #111010;
+  --text-main-color: #28c816;
 }
 * {
   box-sizing: border-box;
@@ -34,7 +34,7 @@ h1 {
 }
 
 p {
-  color: #ffffff;
+  color: var(--text-main-color);
   font-family: "Carme", sans-serif;
   font-size: 16px;
 }
